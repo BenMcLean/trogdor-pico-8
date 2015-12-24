@@ -7,12 +7,11 @@ function _init()
 	player.y = 5
 	player.walk = 0
 	player.sprite = 0
-	player.speed = 2
+	player.speed = 1
 	player.left = false
 end
 
 function move()
-	player.moving = true
 	player.sprite += 2
 	if player.sprite > 6 then
 		player.sprite = 0
